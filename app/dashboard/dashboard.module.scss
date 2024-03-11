@@ -1,0 +1,11 @@
+@import '../../packages/styles/mixins.scss';
+
+.container {
+  background-color: $color-primary;
+}
+
+@include desktop() {
+  .container {
+    background-color: $color-secondary;
+  }
+}
